@@ -1,0 +1,4 @@
+# Ignores the mylogs.log file and doesnt show even if any changes made to it
+mylogs.log
+# To ignore all the files with a specific file extension, say .log then
+*.log
