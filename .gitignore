@@ -5,4 +5,6 @@ mylogs.log
 # To ignore any folder
 (Folder Name)/
 # To ignore any file inside any folder or directory
-/(File Name)
+/(File Name) 
+# Additional comment of no use
+hehe
