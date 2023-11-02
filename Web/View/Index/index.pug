@@ -1,0 +1,168 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        
+        //- Tab Display
+        title BeautyZenith - 
+
+        //- <---Style Sheet linked--->
+        link(rel="stylesheet", href="/Web/Public/css/pages/main.css")
+        
+        //- <---Tab Logo--->
+        link(rel="website icon" type = "png" href="/Web/Public/img/Onlylogo_small.png")
+    body(onload='myFunction()')
+    
+      nav#navbar.menu 
+        a.brand(href="/Web/View/dist/index.html")
+          span.brand__span
+            ion-icon 
+              logo 
+                //- img(src ="/Web/Public/img/logo.png")
+          span.brand__span 
+              img(src ="/Web/Public/img/logo.png")
+
+        ul.menu__list 
+          li.menu__item(style="--i:0;")
+            a.menu__link(href="#")
+              span.menu__span Search
+              span.menu__span
+                ion-icon(name="search-sharp")
+          li.menu__item(style="--i:1;")
+            a.menu__link(href='#')
+              span.menu__span Cart
+              span.menu__span
+                ion-icon(name='cart-sharp' role = "img" )
+          li.menu__item(style='--i:2;')
+            a.menu__link(href='#')
+              span.menu__span Category
+              span.menu__span
+                ion-icon(name='list')
+          li.menu__item(style='--i:3;')
+            a.menu__link(href='#')
+              span.menu__span Team
+              span.menu__span
+                ion-icon(name='people-outline')
+          li.menu__item(style='--i:4;')
+            a.menu__link(href='/Web/View/dist/login.html')
+              span.menu__span Login
+              span.menu__span
+                ion-icon(name='log-in-outline')
+          
+          li.menu__item(style='--i:5;')
+            a.menu__link(href='#')
+              span.menu__span Contact
+              span.menu__span
+                ion-icon(name='call-outline')
+      
+
+      //- <----FOOTER---->
+      footer  
+          div.footer-line
+          div.footer-wrapper   
+            section.footer-top
+              div.footer-headline  
+                h2 Sign-Up to our Newsletter
+                p Stay up to Date with our News and Articles!
+              .footer-subscribe
+                input(type='email' placeholder='Your Email')
+                button
+                  | Sign Up
+            
+            .footer-columns 
+              section.footer-logo
+                img(src="/Web/Public/img/OnlyLogo.png", alt="Logo")
+                logo(fill="none" viewbox="30 30 126 126")
+                h2.hide BeautyZenith
+
+              section 
+                h3 Product 
+                ul  
+                  li
+                    a(href='#' title='API') API
+                  li 
+                    a(href="#" title="Pricing") Pricing 
+                  li 
+                    a(href="#" title="Documentation") Documentation
+                  li 
+                    a(href="#" title="Release_notes") Release Notes
+                  li 
+                    a(href="#" title="Status") Status
+
+                //-<---More Sections--->
+              section 
+                h3 Resources 
+                ul 
+                  li 
+                    a(href="#" title="Support") Support
+                  li 
+                    a(href="#" title="Site_map") Site-Map
+                  li 
+                    a(href="#" title="Newsletter") Newsletter
+                  li 
+                    a(href="#" title="Help_Centre") Help Centre
+                  li 
+                    a(href="#" title="Investor") Investor
+              
+              //-<-- More sections --->
+              section 
+                h3 Company 
+                ul 
+                  li 
+                    a(href="#" title="About_us") About Us
+                  li 
+                    a(href="#" title="blog") Blog
+                  li 
+                    a(href="#" title="Carriers") Carriers
+                  li 
+                    a(href="#" title="Press") Press
+                  li 
+                    a(href="#" title="Contact") Contact
+
+                //-<-- More sections --->
+              section 
+                h3 Legal
+                ul 
+                  li 
+                    a(href="/Web/View/dist/terms_and_conditions.html" title="Terms") Terms & Conditions
+                  li 
+                    a(href="/Web/View/dist/PrivacyPolicy.html" title="Privacy") Privacy Policy
+                  li 
+                    a(href="#" title="Cookies") Cookie Settings
+                  li 
+                    a(href="#" title="Licenses") Licenses
+                  li 
+                    a(href="#" title="Contact") Contact
+              
+              //-   <---Copyright and Social Links--->
+            div 
+              .footer-bottom 
+                small ©BeautyZenith Ltd. All Rights Reserved, 
+                  span#year hello
+                span.social-links
+                  a(href = "#" title = "Instagram")
+                    img(src="/Web/Public/img/instagram logo.svg", alt="Instagram")
+                  a(href = "#" title = "LinkedIn")
+                    img(src="/Web/Public/img/linkedin.svg", alt="LinkedIn")
+                  a(href = "#" title = "Twitter")
+                    img(src="/Web/Public/img/twitter.svg", alt="Twitter")
+                  a(href = "#" title = "Github")
+                    img(src="/Web/Public/img/Github.svg", alt="Github")
+                  
+      //- <---Script Section--->
+    script(type='module' src='https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js' data-stencil-namespace='ionicons')
+
+    script(src="/Web/Public/js/index.js") 
+                  
+
+
+      
+       
+
+
+          
+            
+
+        

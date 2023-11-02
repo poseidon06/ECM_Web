@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Login Form 
+        link(rel="website icon" type = "png" href="/Web/Public/img/OnlyLogo.png")
+    body 
+
+        link(rel="stylesheet", href="/Web/Public/css/components/LoginForm.css")
+
+        link(href='\https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.min.css\
+        ' rel='stylesheet')
+        input#SignIn(type='radio' name='optionScreen' hidden='' checked='')
+        input#SignUp(type='radio' name='optionScreen' hidden='')
+        section
+            #logo
+                img(src='/Web/Public/img/OnlyLogo.png ' alt='Spotify-Logo' width='50')
+                h1  BeautyZenith
+            nav
+                label(for='SignIn') Sign In
+                label(for='SignUp') Sign Up
+            form#SignInFormData(action='')
+                input#username(type='text' placeholder='Username')
+                input#password(type='password' placeholder='Password')
+                span
+                    input#staySingedIn(type='checkbox' checked='')
+                    label(for='staySingedIn') Stay Signed In
+                button(type='button' title='Sing In') Sign In
+                a#forgotPassword Forgot Password?
+            form#SignUpFormData(action='')
+                input#name(type='text' placeholder='Name')
+                input#email(type='email' placeholder='E-mail')
+                input#password(type='password' placeholder='New Password')
+                span
+                    input#staySingedUp(type='checkbox')
+                    label(for='staySingedUp') stay Signed In
+                button(type='button' title='Sign Up') Sign Up

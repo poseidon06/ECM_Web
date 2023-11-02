@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form </title>
+    <link rel="website icon" type="png" href="/Web/Public/img/OnlyLogo.png">
+  </head>
+  <body> 
+    <link rel="stylesheet" href="/Web/Public/css/components/LoginForm.css">
+    <link href="https://cdn.jsdelivr.net/npm/gotham-fonts@1.0.3/css/gotham-rounded.min.css        " rel="stylesheet">
+    <input id="SignIn" type="radio" name="optionScreen" hidden="" checked="">
+    <input id="SignUp" type="radio" name="optionScreen" hidden="">
+    <section>
+      <div id="logo"><img src="/Web/Public/img/OnlyLogo.png " alt="Spotify-Logo" width="50">
+        <h1> BeautyZenith</h1>
+      </div>
+      <nav>
+        <label for="SignIn">Sign In</label>
+        <label for="SignUp">Sign Up</label>
+      </nav>
+      <form id="SignInFormData" action="">
+        <input id="username" type="text" placeholder="Username">
+        <input id="password" type="password" placeholder="Password"><span>
+          <input id="staySingedIn" type="checkbox" checked="">
+          <label for="staySingedIn">Stay Signed In</label></span>
+        <button type="button" title="Sing In">Sign In</button><a id="forgotPassword">Forgot Password?</a>
+      </form>
+      <form id="SignUpFormData" action="">
+        <input id="name" type="text" placeholder="Name">
+        <input id="email" type="email" placeholder="E-mail">
+        <input id="password" type="password" placeholder="New Password"><span>
+          <input id="staySingedUp" type="checkbox">
+          <label for="staySingedUp">stay Signed In</label></span>
+        <button type="button" title="Sign Up">Sign Up</button>
+      </form>
+    </section>
+  </body>
+</html>
